@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: white url(./imagens/fundo.png) repeat-x;
+}
+
+#conteudo {
+    width: 750px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navegacao_principal {
+    height: 220px;
+    background: url(./imagens/detalhe-topo.png) no-repeat top right;
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(./imagens/logo.png);
+    text-indent: -3000px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navegacao_principal ul li {
+    float: left;
+    background-color: rgb(167, 0, 0);
+    color: white;
+    border-right: 1px solid rgb(100, 0, 0);
+}
+
+#navegacao_principal ul li a {
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+#navegacao_principal ul li:hover {
+    color: white;
+    background-color: rgb(196, 0, 0);
+}
+
+
+body.home #navegacao_principal a#home,
+body.brasil #navegacao_principal a#brasil,
+body.internacional #navegacao_principal a#internacional,
+body.economia #navegacao_principal a#economia,
+body.saude #navegacao_principal a#saude,
+body.ciencia #navegacao_principal a#ciencia,
+body.fotos #navegacao_principal a#fotos {
+    color: white;
+    cursor: text;
+    background-color: #de003e;
+}
+
+/* caixa conteudo padrão */
+
+.caixa {
+    padding: 2px;
+    margin-bottom: 20px;
+    background: #fff url(./imagens/fundo-caixa.png);
+}
+
+h2 {
+    font-size: 1.3em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
+
+.caixa-conteudo {
+    background-color: #fff;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 5px;
+}
+
+/* barra direita */
+
+#barra_direita {
+    width: 270px;
+    float: left;
+    margin: 0 0 40px 15px;
+}
+
+/* barra meio */
+
+#barra_meio {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#duas-colunas #barra_meio {
+    width: 555px;
+}
+
+#uma-colunas #barra_meio {
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+/* Formatando Cabeçalhos */
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background-color: #b10333;
+    color: #fff
+}
+
+.entrevista h3 {
+    background-color: #de003e;
+
+}
+
+/* Formatando Lista de Notícias */
+
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a h3 {
+    background-color: white;
+    color:rgb(86, 213, 255);
+    font-size: 0.8em;
+}
+
+#lista-noticias li a p {
+    font-size: 0.6em;
+    color: black;
+}
+
+#lista-noticias li:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+/* Formatando Imagens */
+
+img {
+    border: 2px solid #dfdfdf;
+}
+
+img.imagem-principal {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/* barra esquerda */
+
+.barra_esquerda {
+    width: 180px;
+    margin: 0 0 20px -750px;
+    float:left;
+}
+
+.barra_esquerda ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.barra_esquerda ul a:hover {
+    color: #a1a1a1;
+    background: #f9f9f9 url(./imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+
+/* formatando formulário */
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    padding: 5px;
+}
+
+/* rodape */
+
+#rodape {
+    background-color: #294c71;
+    padding: 20px;
+}
+
+#rodape div {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* links */
+
+a:link, a:visited {
+    color:#b10333;
+    padding: 2px
+}
+
+a:hover {
+    color:#e50040
+}
